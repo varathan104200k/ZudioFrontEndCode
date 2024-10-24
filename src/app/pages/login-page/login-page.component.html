@@ -1,0 +1,29 @@
+<div class="mainDiv w-full h-full p-[50px]">
+    <div class="loginSubDiv flex w-full h-full">
+        <div class="w-1/2 h-full">
+            <img src="../../../assets/png/loginImg.png" alt="loginImg" class="loginImg">
+        </div>
+        <div class="w-1/2 h-full">
+            <p class="title pt-4">Zudio</p>
+            <div class="pt-8 loginForm">
+                <p >Login</p>
+              <div class="flex flex-col gap-8 mt-[30px]">
+                <div class="flex flex-col gap-2 mainBox">
+                <label for="email" >Email address</label>
+                <input type="email" placeholder="jhon@gmail.com" class="w-[70%]" [(ngModel)]="userName">
+                </div>
+                <div class="flex flex-col gap-2 mainBox">
+                <label for="password">Password</label>
+                <input type="password" class="w-[70%]" [(ngModel)]="password">
+               </div>
+               <div class="flex flex-col gap-4">
+                <button class="Sign w-[70%]" (click)="getLogin()">Sign In</button>
+               <button class="Register w-[70%]">Register Now</button>
+               <button class="text-right w-[70%] forget">Forget Password ?</button>
+               </div>
+            </div>
+            <p class="terms text-right mt-[20px]">Zudio Terms & Condition</p>
+            </div>
+        </div>
+    </div>
+</div>

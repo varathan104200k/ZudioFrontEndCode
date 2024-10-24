@@ -1,0 +1,28 @@
+.homeImg{
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+ul li:first-child{
+    font-family: cursive;
+   }
+ul li:nth-child(2){
+    font-family: fantasy;
+   }
+ul li:nth-child(3){
+    font-family: monospace;
+   }
+ul li:nth-child(4){
+    font-family: sans-serif;
+   }
+ul li:nth-child(5){
+    font-family: emoji;
+   }
